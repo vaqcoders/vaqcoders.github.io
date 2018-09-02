@@ -1,0 +1,41 @@
+/* Welcome to CSS. This is the file that styles everything on the HTML file. They communicate with each other to help you make beautiful creations. */
+
+/* Right here, I added some fonts to the global scope of my css file, meaning I can use it throughout the file now by calling it by its name. To do this yourself, visit https://fonts.google.com/, select a few fonts, copy the @import option, and paste it at the top of this file. */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Work+Sans');
+
+body {
+  /* Here I changed the background color of the entire page to a named color. */
+  background-color: palegreen;
+}
+
+h1 {
+  /* Here I changed the font of my heading element to Courgette with a fallback of Cursive. */
+  font-family: 'Courgette', cursive;
+  /* Here I center-justified the text in my heading element. */
+  text-align: center;
+}
+
+h3 {
+  /* Here I changed the font of all of my subheading elements to Work Sans with a fallback of Sans-Serif. */
+  font-family: 'Work Sans', sans-serif;
+  /* Here I changed the margin to align the subheading with the paragraphs. */
+  margin-left: 25vw;
+}
+
+p {
+  /* Here I changed the font of all of my paragraph elements to Work Sans with a fallback of Sans-Serif. */
+  font-family: 'Work Sans', sans-serif;
+  /* Here I added a small line-spacing. */
+  margin-bottom: 1em;
+  /* And here, I added an indent for each paragraph. */
+  text-indent: 1em;
+  /* Here I specified the width of my paragraph elements. */
+  max-width: 45vw;
+  /* Here I changed the margin to center the text in the middle of the page. */
+  margin-left: 25vw;
+}
+
+div {
+  /* Here I changed the margin to center the text in the middle of the page. */
+  margin-left: 25vw;
+}

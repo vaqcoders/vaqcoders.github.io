@@ -1,41 +1,112 @@
 /* Welcome to CSS. This is the file that styles everything on the HTML file. They communicate with each other to help you make beautiful creations. */
-
 /* Right here, I added some fonts to the global scope of my css file, meaning I can use it throughout the file now by calling it by its name. To do this yourself, visit https://fonts.google.com/, select a few fonts, copy the @import option, and paste it at the top of this file. */
-@import url('https://fonts.googleapis.com/css?family=Courgette|Work+Sans');
+@import url("https://fonts.googleapis.com/css?family=Courgette|Work+Sans");
 
-body {
+html, body {
   /* Here I changed the background color of the entire page to a named color. */
   background-color: palegreen;
+  margin: 0;
+  max-width: 100vw;
 }
 
-h1 {
-  /* Here I changed the font of my heading element to Courgette with a fallback of Cursive. */
-  font-family: 'Courgette', cursive;
-  /* Here I center-justified the text in my heading element. */
-  text-align: center;
+hr {
+  width: 75%;
+  border: 1px solid black;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-h3 {
+h3, h4 {
   /* Here I changed the font of all of my subheading elements to Work Sans with a fallback of Sans-Serif. */
-  font-family: 'Work Sans', sans-serif;
-  /* Here I changed the margin to align the subheading with the paragraphs. */
-  margin-left: 25vw;
+  font-family: "Courgette", cursive;
+  margin: 10px;
+}
+h3 {
+  font-size: 2em;
 }
 
 p {
   /* Here I changed the font of all of my paragraph elements to Work Sans with a fallback of Sans-Serif. */
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   /* Here I added a small line-spacing. */
   margin-bottom: 1em;
   /* And here, I added an indent for each paragraph. */
   text-indent: 1em;
   /* Here I specified the width of my paragraph elements. */
   max-width: 45vw;
-  /* Here I changed the margin to center the text in the middle of the page. */
-  margin-left: 25vw;
 }
 
-div {
-  /* Here I changed the margin to center the text in the middle of the page. */
-  margin-left: 25vw;
+.toc {
+  position: fixed;
+  background-color: #FAFAFA;
+  top: 180px;
+  left: 40px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+} .toc > ul  {
+  width: 100%;
+} toc a {
+  color: #bbb;
+}
+
+.content {
+  margin-left: 320px;
+  margin-top: 175px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #28B463;
+  box-shadow: 0px 5px 5px grey;
+} header > h1 {
+  font-size: 4em;
+  padding-left: 10vw;
+  font-family: "Courgette", cursive;
+  margin: 0;
+}
+
+.officers {
+  list-style: none;
+  margin: 0 auto;
+} .officers > li {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+.announcements {
+  list-style: none;
+  margin: 0 auto;
+} .announcements > li {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+} .announcements > li:nth-child(1) {
+  font-size: 1.2em;
+}
+
+.resources {
+  list-style: none;
+  margin: 0 auto;
+} .resources > li {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+footer {
+  background-color: #FAFAFA;
+  text-align: right;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
 }

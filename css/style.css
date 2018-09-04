@@ -18,7 +18,6 @@ hr {
 }
 
 h3, h4 {
-  /* Here I changed the font of all of my subheading elements to Work Sans with a fallback of Sans-Serif. */
   font-family: "Courgette", cursive;
   margin: 10px;
 }
@@ -39,7 +38,7 @@ p {
 
 .toc {
   position: fixed;
-  background-color: #FAFAFA;
+  background-color: #FFF380;
   top: 180px;
   left: 40px;
   padding-right: 100px;

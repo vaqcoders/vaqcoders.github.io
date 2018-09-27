@@ -84,6 +84,7 @@ header {
   width: 300px;
   max-width: 300px;
   vertical-align: top;
+  margin: 10px;
 } .officers > li > h4 {
   font-size: 1.5em;
 } .officers > li > ul {

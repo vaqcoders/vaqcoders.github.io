@@ -1,6 +1,6 @@
 # Vaqcoders Website
 
-live link: [vaqcoders.github.io/website](https://vaqcoders.github.io/website/)
+live link: [vaqcoders.github.io](https://vaqcoders.github.io/)
 
 ### How To Update on GitHub.com
 * Fork the repository
